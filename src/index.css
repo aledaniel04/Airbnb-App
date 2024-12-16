@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hide-scrollbar {
+    overflow-x: auto; /* Permite el desplazamiento horizontal */
+    scrollbar-width: none; /* Para navegadores Firefox */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+    display: none; /* Para navegadores WebKit (Chrome, Safari) */
+}
+
+.leaflet-overlay-pane svg {
+    user-select: none; /* Para navegadores modernos */
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+  }
+
+.leaflet-container {
+    z-index: 0; /* Asegúrate de que no interfiera con otros elementos */
+  }
+
+.leaflet-control-geosearch {
+    pointer-events: all;
+  }
+
+
+  
+
+  
+
