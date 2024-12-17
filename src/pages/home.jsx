@@ -1,5 +1,5 @@
 import { Category } from '../components/Category'
-import { Filter } from '../components/Filter.jsx'
+import { Filter } from '../components/Filter'
 import PriceToggle from '../components/PriceToggle'
 import { Navbar } from '../components/Navbar'
 import NavbarTop from '../components/NavbarTop'
