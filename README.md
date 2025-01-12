@@ -15,16 +15,19 @@ link: https://airbnb-clone-app-livid.vercel.app/
    ```bash
    npm install
    ```
-4. **Inicia el servidor de desarrollo con:**
+3. **Inicia el servidor de desarrollo con:**
    
    ```bash
    npm run dev
    ```
 
-6. **Abrir en el navegador:**
+4. **Abrir en el navegador:** Accede a la aplicación en tu navegador a través del enlace que aparece en el terminal.
 
- Accede a la aplicación en tu navegador a través del enlace que aparece en el terminal.
-
+5. **Configurar Supabase:** Este proyecto utiliza Supabase como backend. Sigue los pasos para configurarlo:
+   - Crear un Proyecto en Supabase,
+   - Accede al panel del proyecto y copia las claves de API que necesitarás más adelante: URL del proyecto y Clave Anónima (API Key).
+   - En la pestaña "SQL Editor" de Supabase, crea las tablas necesarias.
+   - Crea un archivo .env.local en la raíz del proyecto y agrega las siguientes variables: VITE_SUPABASE_URL=tu-url-de-supabase VITE_SUPABASE_ANON_KEY=tu-clave-anonima.
 
 # Principales funcionalidades
 ### 1. Autenticación (Google, Facebook, OTP, Correo y Contraseña):
